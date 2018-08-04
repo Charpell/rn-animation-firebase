@@ -4,12 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Supertext from './src/widgets/supertext';
 import DsPlatform from './src/ds_platform/ds_platform'
 import AnimOne from './src/Animations/anim_one';
+import AnimTwo from './src/Animations/anim_two';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <AnimOne />
+        <AnimTwo />
       </View>
     );
   }
