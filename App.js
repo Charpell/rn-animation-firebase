@@ -7,12 +7,13 @@ import AnimOne from './src/Animations/anim_one';
 import AnimTwo from './src/Animations/anim_two';
 import Articles from './src/Articles';
 import InputData from './src/inputData/inputdata';
+import Login from './src/Login'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <InputData />
+        <Login />
       </View>
     );
   }
