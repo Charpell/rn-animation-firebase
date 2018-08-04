@@ -6,12 +6,13 @@ import DsPlatform from './src/ds_platform/ds_platform'
 import AnimOne from './src/Animations/anim_one';
 import AnimTwo from './src/Animations/anim_two';
 import Articles from './src/Articles';
+import InputData from './src/inputData/inputdata';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Articles />
+        <InputData />
       </View>
     );
   }
