@@ -17,6 +17,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .DS_Store
-package.lock.js
+package-lock.json
 ios
 android
